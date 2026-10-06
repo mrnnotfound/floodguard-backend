@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:16
+    container_name: floodguard-db
+    environment:
+      POSTGRES_DB: floodguard
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+    ports:
+      - "5433:5432"
+    volumes:
+      - floodguard-data:/var/lib/postgresql/data
+      # roda automaticamente na PRIMEIRA vez que o banco é criado
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
+volumes:
+  floodguard-data:

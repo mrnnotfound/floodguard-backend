@@ -1,0 +1,17 @@
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/FloodGuardApplication.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/controller/AlertaController.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/controller/OcorrenciaController.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/controller/RegiaoController.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/dto/OcorrenciaRequest.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/dto/RiscoResponse.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/exception/RecursoNaoEncontradoException.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/model/Alerta.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/model/NivelRisco.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/model/Ocorrencia.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/model/Regiao.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/repository/AlertaRepository.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/repository/OcorrenciaRepository.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/repository/RegiaoRepository.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/service/AlertaService.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/service/OcorrenciaService.java
+/Users/eduardafbz/floodguard-backend/src/main/java/com/floodguard/service/RiscoService.java
